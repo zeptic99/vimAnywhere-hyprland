@@ -1,9 +1,9 @@
 #!/bin/bash
-hyprctl dispatch exec [float] "alacritty -e nvim /home/zeptic/zeptittyconf/vimAnywhere/buffer/buffer.txt" &
+hyprctl dispatch exec [float] "alacritty -e nvim /home/zeptic/zeptittyconf/vimAnywhere-hyprland/buffer/buffer.txt" &
 
-inotifywait -e modify "/home/zeptic/zeptittyconf/vimAnywhere/buffer/buffer.txt"
+inotifywait -e modify "/home/zeptic/zeptittyconf/vimAnywhere-hyprland/buffer/buffer.txt"
 
-cat /home/zeptic/zeptittyconf/vimAnywhere/buffer/buffer.txt | wl-copy
+cat /home/zeptic/zeptittyconf/vimAnywhere-hyprland/buffer/buffer.txt | wl-copy
 
 #wl-copy howunfortunate
 

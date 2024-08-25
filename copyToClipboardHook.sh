@@ -6,9 +6,9 @@ wtype -M ctrl -k c
 
 sleep 0.1
 
-wl-paste > /home/zeptic/zeptittyconf/vimAnywhere/buffer/buffer.txt
+wl-paste > /home/zeptic/zeptittyconf/vimAnywhere-hyprland/buffer/buffer.txt
 
 #sleep 0.1
 
 #hyprctl dispatch exec [float] "alacritty -e nvim /home/zeptic/zeptittyconf/vimAnywhere/buffer/buffer.txt"
-sh /home/zeptic/zeptittyconf/vimAnywhere/run.sh
+sh /home/zeptic/zeptittyconf/vimAnywhere-hyprland/run.sh
